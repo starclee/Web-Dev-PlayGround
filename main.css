@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  max-width: 1680px;
+  max-height: 2753px;
+}
+
+body {
+  background-color: #232830;
+}
+
+
+
+.Page-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: aquamarine;
+  align-items: center;
+  border: #232830 5px solid;
+}
+
+.main-header {
+  max-width: 1236px;
+  max-height: 515px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.Page-header a {
+  color: #FFFFFF;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.brand {
+  margin: 20px 50px;
+}
+
+.nav {
+  margin-right: 20px
+}
+
+a {
+  text-decoration: none;
+  text-decoration-color: none;
+}
