@@ -1,48 +1,238 @@
 * {
   margin: 0;
-  max-width: 1680px;
-  max-height: 2753px;
 }
 
 body {
   background-color: #232830;
-}
-
-
-
-.Page-header {
-  display: flex;
-  justify-content: space-between;
-  background-color: aquamarine;
-  align-items: center;
-  border: #232830 5px solid;
-}
-
-.main-header {
-  max-width: 1236px;
-  max-height: 515px;
   display: flex;
   justify-content: center;
-
+  flex-direction: column;
+  align-items: center;
 }
 
-.Page-header a {
+
+.page-header {
+  width: 1236px;
+  height: 515px;
+  margin-top: 75px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
   color: #FFFFFF;
   font-family: Poppins;
+  font-size: 24px;
   font-weight: 400;
-  font-size: 30px;
-  line-height: 45px;
-}
-
-.brand {
-  margin: 20px 50px;
-}
-
-.nav {
-  margin-right: 20px
+  line-height: 36px;
 }
 
 a {
   text-decoration: none;
-  text-decoration-color: none;
+  color: #FFFFFF;
+}
+
+.group-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 75px;
+}
+
+.logo {
+  width: 195px;
+  height: 205px;
+}
+
+.t1 {
+  color: #FF7575;
+  font-family: Recursive;
+  font-size: 71px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 85.2px;
+  padding: 40px 0 18px 0;
+}
+
+.t2 {
+  color: #FFFFFF;
+  font-family: Poppins;
+  font-size: 29px;
+  font-weight: 400;
+  line-height: 43.5px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.categories {
+  padding-bottom: 127px;
+}
+
+
+.categories ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #909090;
+  font-family: Recursive;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 32.4px;
+}
+
+
+.rectangle {
+  position: absolute;
+  width: 116px;
+  height: 60px;
+  right: 96px;
+  background: linear-gradient(270deg, #232830, rgba(35, 40, 48, 0.5));
+}
+
+li:last-child {
+  position: relative;
+}
+
+.grid {
+  padding-top: 90px;
+  padding-bottom: 115px;
+}
+
+.grid ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 390px 390px 390px;
+  gap: 37px;
+}
+
+.grid ul li {
+  width: 340px;
+  height: 439px;
+  border-radius: 22px;
+  border: 1px;
+  padding: 26.46px;
+  background-color: #FFFFFF;
+}
+
+.grid ul li img {
+  width: 337px;
+  height: 160px;
+  border-radius: 22px;
+}
+
+.topic {
+  font-family: Poppins;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 28.5px;
+  color: #0F1217;
+  padding-top: 33px;
+}
+
+.info {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #0F1217;
+  padding: 13px 30px 24px 0px;
+}
+
+.dot {
+  height: 3.45px;
+  width: 3.45px;
+  background-color: #0F1217;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 2.5px;
+}
+
+.page-nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-nav a {
+  color: #909090;
+  font-family: Recursive;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+  font-weight: 400;
+  line-height: 30px;
+  margin-right: 43px;
+  padding-top: 17px;
+}
+
+.page-nav a:active {
+  color: #FF7575;
+  font-family: Recursive;
+  border-top: 3px solid #FF7575;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+
+}
+
+.footer-hr {
+  width: 100%;
+  border-top: 3px solid #4D4D4D;
+  opacity: 0.2px;
+  margin-top: 100px;
+  padding-top: 20px;
+}
+
+.footer ol {
+  width: 1236px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 127px;
+}
+
+
+.footer ol li span {
+  padding-right: 13px;
+
+}
+
+.footer-logo {
+  font-family: Poppins;
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 37.71px;
+  text-align: left;
+
+}
+
+.author {
+  background-color: #4699E0;
+  color: #FFFFFF;
+  border-radius: 5px;
+  font-family: Poppins;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 23.88px;
+  text-align: center;
+  padding: 4px 13px 6px;
+}
+
+.footer ol li img {
+  width: 20px;
+  height: 16px;
+  padding-right: 5px;
+  /* margin-top: -3px; */
 }

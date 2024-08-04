@@ -4,26 +4,250 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
+    <script type="text/javascript" src="./main.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Recursive&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Recursive&family=Source+Sans+3:ital,wght@0,600;1,600&display=swap"
+      rel="stylesheet"
+    />
     <title>writings.dev</title>
   </head>
   <body>
-    <section class="main-header">
-      <section class="Page-header">
-        <div class="brand">
-          <a href="">writings.dev</a>
-        </div>
-        <div class="nav">
-          <a href="">categories</a>
-          <a href="">articles</a>
-          <a href="">about</a>
-        </div>
+    <div class="header-body">
+      <section class="page-header">
+        <section class="nav-bar">
+          <div>writings.dev</div>
+          <nav class="nav">
+            <a
+              style="margin-right: 36px"
+              href="#"
+              onclick="scrollToSection('categories')"
+            >
+              categories
+            </a>
+            <a
+              style="margin-right: 36px"
+              href="#"
+              onclick="scrollToSection('grid')"
+            >
+              articles
+            </a>
+            <a href="#" onclick="scrollToSection('footer')"> about </a>
+          </nav>
+        </section>
+        <section class="group-5">
+          <div class="logo">
+            <img src="./images/Logo.png" alt="Logo Image" srcset="" />
+          </div>
+          <p class="t1">Writings for Developers</p>
+          <p class="t2">Curated collection of articles for busy developers</p>
+        </section>
       </section>
-    </section>
+    </div>
+
+    <div class="footer-hr"></div>
+
+    <div class="main-content">
+      <section class="categories">
+        <ul>
+          <li>
+            <img src="./images/Grid Icon.png" alt="Grid Icon" />
+            <img src="./images/List Icon.png" alt="List Icon" />
+          </li>
+          <li>Javascript</li>
+          <li>DevOps</li>
+          <li>Cloud</li>
+          <li>Terraform</li>
+          <li>Architecture</li>
+          <li>Scalability</li>
+          <li>Explainers</li>
+          <div class="rectangle"></div>
+          <!-- <div class="rectangle-container"> -->
+          <!-- </div> -->
+        </ul>
+      </section>
+
+      <div class="grid">
+        <ul>
+          <li>
+            <img src="images/image 1.png" alt="" />
+            <p class="topic">
+              Build continuous integration pipelines with GitHub Actions
+            </p>
+            <p class="info">
+              GitHub actions provide a really powerful way to integrate
+              continuous integration and delivery into your applications.
+            </p>
+
+            <div class="info">
+              <p style="display: inline; padding-right: 13px">June 24, 2022</p>
+              <span class="dot"></span>
+              <p style="display: inline; padding-left: 26.45px">DevOps</p>
+            </div>
+          </li>
+          <li>
+            <img src="images/image 2.png" alt="" />
+            <p class="topic">Python for the Absolute beginners</p>
+            <p class="info">
+              Python is the most popular programming language out there and it
+              is used for so many different industries.
+            </p>
+
+            <div class="info">
+              <p style="display: inline; padding-right: 13px">June 24, 2022</p>
+              <span class="dot"></span>
+              <p style="display: inline; padding-left: 26.45px">DevOps</p>
+            </div>
+          </li>
+          <li>
+            <img src="images/image 3.png" alt="" />
+            <p class="topic">Docker from Zero to Hero</p>
+            <p class="info">
+              Learn what is Docker and how Docker is used in the whole software
+              development process.
+            </p>
+
+            <div class="info">
+              <p style="display: inline; padding-right: 13px">June 24, 2022</p>
+              <span class="dot"></span>
+              <p style="display: inline; padding-left: 26.45px">DevOps</p>
+            </div>
+          </li>
+          <li>
+            <img src="images/image 4.png" alt="" />
+            <p class="topic">
+              Build continuous integration pipelines with GitHub Actions
+            </p>
+            <p class="info">
+              GitHub actions provide a really powerful way to integrate
+              continuous integration and delivery into your applications.
+            </p>
+
+            <div class="info">
+              <p style="display: inline; padding-right: 13px">June 24, 2022</p>
+              <span class="dot"></span>
+              <p style="display: inline; padding-left: 26.45px">DevOps</p>
+            </div>
+          </li>
+          <li>
+            <img src="images/image 5.png" alt="" />
+            <p class="topic">
+              Build continuous integration pipelines with GitHub Actions
+            </p>
+            <p class="info">
+              GitHub actions provide a really powerful way to integrate
+              continuous integration and delivery into your applications.
+            </p>
+
+            <div class="info">
+              <p style="display: inline; padding-right: 13px">June 24, 2022</p>
+              <span class="dot"></span>
+              <p style="display: inline; padding-left: 26.45px">DevOps</p>
+            </div>
+          </li>
+          <li>
+            <img src="images/image 6.png" alt="" />
+            <p class="topic">
+              Build continuous integration pipelines with GitHub Actions
+            </p>
+            <p class="info">
+              GitHub actions provide a really powerful way to integrate
+              continuous integration and delivery into your applications.
+            </p>
+
+            <div class="info">
+              <p style="display: inline; padding-right: 13px">June 24, 2022</p>
+              <span class="dot"></span>
+              <p style="display: inline; padding-left: 26.45px">DevOps</p>
+            </div>
+          </li>
+          <li>
+            <img src="images/image 7.png" alt="" />
+            <p class="topic">
+              Build continuous integration pipelines with GitHub Actions
+            </p>
+            <p class="info">
+              GitHub actions provide a really powerful way to integrate
+              continuous integration and delivery into your applications.
+            </p>
+
+            <div class="info">
+              <p style="display: inline; padding-right: 13px">June 24, 2022</p>
+              <span class="dot"></span>
+              <p style="display: inline; padding-left: 26.45px">DevOps</p>
+            </div>
+          </li>
+          <li>
+            <img src="images/image 8.png" alt="" />
+            <p class="topic">
+              Build continuous integration pipelines with GitHub Actions
+            </p>
+            <p class="info">
+              GitHub actions provide a really powerful way to integrate
+              continuous integration and delivery into your applications.
+            </p>
+
+            <div class="info">
+              <p style="display: inline; padding-right: 13px">June 24, 2022</p>
+              <span class="dot"></span>
+              <p style="display: inline; padding-left: 26.45px">DevOps</p>
+            </div>
+          </li>
+          <li>
+            <img src="images/image 9.png" alt="" />
+            <p class="topic">
+              Build continuous integration pipelines with GitHub Actions
+            </p>
+            <p class="info">
+              GitHub actions provide a really powerful way to integrate
+              continuous integration and delivery into your applications.
+            </p>
+
+            <div class="info">
+              <p style="display: inline; padding-right: 13px">June 24, 2022</p>
+              <span class="dot"></span>
+              <p style="display: inline; padding-left: 26.45px">DevOps</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="page-nav">
+      <a href="#" onclick="scrollToSection('nav-bar')">Previous</a>
+      <a href="#" onclick="scrollToSection('nav-bar')">1</a>
+      <a href="#" onclick="scrollToSection('nav-bar')">2</a>
+      <a href="#" onclick="scrollToSection('nav-bar')">3</a>
+      <a href="#" onclick="scrollToSection('nav-bar')">4</a>
+      <a href="#" onclick="scrollToSection('nav-bar')">5</a>
+      <a href="#" onclick="scrollToSection('nav-bar')">Next</a>
+    </div>
+
+    <div class="footer-hr"></div>
+
+    <footer class="footer">
+      <ol>
+        <li>
+          <span class="footer-logo">writings.dev</span>
+          <span class="author"> by @Starc </span>
+        </li>
+        <li>
+          <span class="author">
+            <img src="./images/Vector.png" alt="twitter" /> Follow
+            @writingsdev</span
+          >
+        </li>
+      </ol>
+    </footer>
   </body>
 </html>
