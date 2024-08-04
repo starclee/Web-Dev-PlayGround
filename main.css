@@ -92,12 +92,8 @@ a {
   position: absolute;
   width: 116px;
   height: 60px;
-  right: 96px;
-  background: linear-gradient(270deg, #232830, rgba(35, 40, 48, 0.5));
-}
-
-li:last-child {
-  position: relative;
+  right: 120px;
+  background: linear-gradient(270deg, #232830, rgba(35, 40, 48, 0));
 }
 
 .grid {
